@@ -12,7 +12,6 @@ import { UsersController } from './users.controller.js';
   ],
   controllers: [UsersController],
   providers: [
-    // Bind the interface token to the concrete implementation
     {
       provide: USER_REPOSITORY,
       useClass: UserRepository,
