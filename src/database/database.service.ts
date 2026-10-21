@@ -12,7 +12,6 @@ export class DatabaseService {
   }
 
   isConnected(): boolean {
-    // 1 = connected
     return this.connection.readyState === 1;
   }
 
